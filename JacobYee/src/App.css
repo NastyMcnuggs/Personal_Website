@@ -1,0 +1,87 @@
+#root {
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+  background-color: #C5C6C7;
+}
+
+.header {
+  text-align: center;
+}
+
+.normal-text {
+   text-align: left;
+}
+
+.background {
+  background-image: url(./assets/background.JPG);
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.center-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture {
+  background-image: url(./assets/Profile.jpg);
+  background-position: center;  
+  background-size: cover;  
+  width: 150px;  
+  height: 150px;  
+  border-radius: 50%;  
+}
+
+#navbar-container {
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  z-index: 10;
+  bottom: 0;
+  float: bottom;
+  border: 1px solid black;
+  border-bottom: 1px solid black;
+  background: #333;
+
+}
+
+#navbar {
+  width: 100vw;
+  height: 100px;
+  margin: 10px;
+}
+
+.text-block {
+  background: #333;
+  min-width: 300px;
+  width: auto;
+  max-width: 1000px;
+  min-height: 300px;
+  height:auto;  
+  border-radius: 25px;
+  opacity: .75;
+  padding: 20px;
+  float: left;
+  margin: 10px;
+}
+
+.objectives-block {
+  background-color: #333;
+  min-width: 300px;
+  width: auto;
+  max-width: 1000px;
+  min-height: 100px;
+  height:auto;
+  max-height: 200px;
+  border-radius: 25px;
+  opacity: .75;
+  padding: 20px;
+  min-width: 300px;
+  min-height: 75px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+}
