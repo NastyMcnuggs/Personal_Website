@@ -44,20 +44,21 @@ function App() {
           STEM field in the realm of computer engineering 
           and have passion for computer science and embedded systems.
           </div>
-        </div>
+          
 
-        <section id="navbar-container">  
+        </div>
+      </div>
+      
+      <section id="navbar-container">  
           <nav id="navbar">
-            <h3>Contact Me</h3>
+            <h3 position="center">Contact Me</h3>
             <div>Phone: (318)-376-8581      
                 Email: jacoby27@comcast.net
             </div>
             
           </nav>
-        </section>
-      </div>
-      
-      
+          </section>
+
     </div>
   );
 }
